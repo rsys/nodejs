@@ -1,0 +1,23 @@
+{
+    "name": "my-webapp",
+    "version": "0.0.0",
+    "description": "Website for my new app",
+    "scripts": {
+        "start:watch": "nodemon ./server",
+        "start:dev": "node ./server",
+        "debug": "node debug ./server",
+        "start": "NODE_ENV=production node ./server",
+        "start:production": "NODE_ENV=production node ./server"
+    },
+    "author": "Ravi Kumar Gupta",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.4",
+        "pug": "^2.0.3",
+        "reload": "^2.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rsys/nodejs.git"
+    }
+}
